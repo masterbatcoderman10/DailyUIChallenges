@@ -1,37 +1,111 @@
+
+
+
+
 #paymentNav {
     background: #009C01;
     font-family: 'Fredoka', sans-serif;
     box-shadow: #FFAA00 0px 0px 0px 10px, #009C01 0px 0px 0px 20px;
-    margin-bottom: 10%
+    margin-bottom: 4%;
+    
     
 }
+
+
 
 #navbarHead {
     font-family: 'Fredoka One', cursive;
     font-size: 24px;
 }
 
+* {
+    font-family: 'Fredoka', cursive;
+}
 
+input:focus {
+    border: 1px solid #009C01 !important;
+    outline: none !important;
+    box-shadow: rgba(24, 214, 3, 0.3) 0px 0px 0px 3px !important;
+}
+
+.page-header {
+    margin: 5% 0 3%;
+    font-family: 'Fredoka One', cursive;
+}
+
+.icon-holder {
+    box-sizing: border-box;
+    
+    border-radius: 100%;
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+    position: relative;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    background-color: #c2fbd7;
+}
+
+.icon {
+    position: absolute;
+    right: 28%;
+    bottom: 28%;
+    font-size: 24px;
+    color: green;
+}
+
+.loader {
+    width: 200px;
+    height: 100%;  
+    display: inline-block;
+    color: #009C01;
+}
+
+.icon-holder:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+
+#purchase {
+    background: white;
+    /* border: 1px solid #009C01; */
+}
 
 .payment-body {
     
-    
-    height: 300px;
+    box-shadow: rgba(24, 214, 3, 0.3) 0px 0px 0px 3px !important;
+    border-radius: 2ch;
+    margin-bottom: 20%;
+}
+
+.payment-header {
+    font-family: "Fredoka One", cursive;
+    margin-bottom: 4%;
 }
 
 .wrapper {
-    margin-top: 1%;
+    margin-top: 3%;
+}
+
+.product-list {
+    line-height: 1.3em;
+}
+
+.prices {
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.price-listing {
+    margin-bottom: 46px;
 }
 
 
-body {
-	background-color: #f6f6fc;	
-}
 
 .cc-types__img {
 	display: inline-block;
-	margin-left: -4px;
-	width: 5%;
+	
+	width: 10%;
 	vertical-align: middle;
 	
 	filter: sepia(.3) contrast(1.1) brightness(1.1) grayscale(1);
@@ -39,6 +113,37 @@ body {
 
 .cc-types__img--active {
 	filter: none;
+}
+
+/* Card Filling Form */
+
+
+
+
+
+/* CSS For the button */
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
 }
 
 .cc-types__img {

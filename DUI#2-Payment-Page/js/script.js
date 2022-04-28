@@ -1,3 +1,4 @@
+
 let ccNumberInput = document.querySelector('.cc-number-input'),
 		ccNumberPattern = /^\d{0,16}$/g,
 		ccNumberSeparator = " ",
