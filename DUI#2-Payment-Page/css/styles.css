@@ -116,7 +116,22 @@ input:focus {
 }
 
 /* Card Filling Form */
+#page-footer {
+    background-color: #009C01;
+    
+}
 
+.footer-icons {
+    color: #c2fbd7;
+}
+
+.footer-icons:hover {
+    color: #c2fbd7;
+}
+
+.footer-txt {
+    color: #c2fbd7;
+}
 
 
 
