@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+}
+
+.purple {
+
+    width: 100%;
+    background-color: plum;
+    height: 24px;
+}
+
+.rest {
+
+    width: 100%;
+    height: 24px;
+    background-color: aqua;
+}
+
+.rest-2 {
+
+    width: 100%;
+    height: 24px;
+    background-color: greenyellow;
+}
